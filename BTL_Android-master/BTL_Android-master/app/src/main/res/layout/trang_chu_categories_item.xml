@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/layoutCategories"
+    android:background="@drawable/cate_background4"
+    android:layout_marginRight="20dp">
+
+    <ImageView
+        android:id="@+id/imgCategories"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:src="@drawable/cate_pizza_slice"/>
+
+    <TextView
+        android:id="@+id/titleCategories"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <!-- Mã nhân viên -->
+
+    <EditText
+        android:id="@+id/edtMaNV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã nhân viên"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Tên nhân viên -->
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên nhân viên"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Chức vụ -->
+
+    <EditText
+        android:id="@+id/edtChucVu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chức vụ"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Hệ số lương -->
+
+    <EditText
+        android:id="@+id/edtHSL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập hệ số lương"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Lương cơ bản -->
+
+    <EditText
+        android:id="@+id/edtLCB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lương cơ bản"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Giới tính -->
+
+
+    <EditText
+        android:id="@+id/edtGioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giới tính"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Địa chỉ -->
+
+    <EditText
+        android:id="@+id/edtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập địa chỉ"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Nút lưu thông tin -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu thông tin"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnhiennv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hiện"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Màu nền của nút giảm -->
+    <solid android:color="#76c7c0" />
+
+    <!-- Độ rộng và chiều cao của nút -->
+    <size
+        android:width="60dp"
+        android:height="60dp" />
+
+    <!-- Độ dày của viền và màu sắc -->
+    <stroke
+        android:width="2dp"
+        android:color="#4b908a" />
+
+</shape>

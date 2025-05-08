@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="10dp"
+    android:elevation="4dp">
+
+    <!-- Mã nhân viên -->
+    <TextView
+        android:id="@+id/tvMaNV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã nhân viên"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Tên nhân viên -->
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên nhân viên"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Chức vụ -->
+    <TextView
+        android:id="@+id/tvChucVu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chức vụ"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Hệ số lương và Lương cơ bản -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvHSL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hệ số lương: "
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/tvLCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lương cơ bản: "
+            android:textSize="14sp"
+            android:textColor="#333333"/>
+    </LinearLayout>
+
+    <!-- Giới tính -->
+    <TextView
+        android:id="@+id/tvGioiTinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- Địa chỉ -->
+    <TextView
+        android:id="@+id/tvDiaChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp"/>
+</LinearLayout>

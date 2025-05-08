@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Lớp nền của LinearLayout -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Màu nền trắng -->
+            <corners
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp" />
+        </shape>
+    </item>
+
+    <!-- Lớp viền chỉ ở phía trên -->
+    <item>
+        <shape>
+            <stroke
+                android:width="2dp"
+                android:color="#10000000" />     <!-- Màu viền xám -->
+
+            <size
+                android:height="1dp" /> <!-- Chỉ định chiều cao của viền là 2dp (để chỉ hiện ở trên) -->
+
+            <corners
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+</layer-list>
